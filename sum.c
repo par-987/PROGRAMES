@@ -1,10 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a,b;
+int a,b,sum;
 printf("enter a:");
 scanf("%d",&a);
 printf("enter b:");
 scanf("%d",&b);
-printf("total =%d",a+b);
+  sum=a+b;
+printf("total =%d",sum);
 }
